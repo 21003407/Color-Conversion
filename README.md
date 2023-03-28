@@ -121,7 +121,7 @@ cv2.destroyAllWindows()
 
 import cv2
 
-myimage = cv2.imread("t.png")
+myimage = cv2.imread("SC5.png")
 hsv = cv2.cvtColor(myimage , cv2.COLOR_BGR2HSV)
 cv2.imshow("initial hsv ", hsv)
 
