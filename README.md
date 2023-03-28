@@ -84,7 +84,7 @@ cv2.destroyAllWindows()
 
 import cv2
 
-myimage = cv2.imread("nb.png")
+myimage = cv2.imread("s3.jpeg")
 
 cv2.imshow("Original_BGR", myimage)
 
@@ -103,7 +103,7 @@ cv2.destroyAllWindows()
 
 # iv)Split and Merge RGB Image
 
-myimage = cv2.imread("b.png")
+myimage = cv2.imread("s4.jpeg")
 
 
 b,g,r = cv2.split(myimage)
@@ -121,7 +121,7 @@ cv2.destroyAllWindows()
 
 import cv2
 
-myimage = cv2.imread("SC5.png")
+myimage = cv2.imread("s5.jpeg")
 hsv = cv2.cvtColor(myimage , cv2.COLOR_BGR2HSV)
 cv2.imshow("initial hsv ", hsv)
 
@@ -158,7 +158,7 @@ cv2.destroyAllWindows()
 <br>
 
 ### v) Split and merge HSV Image
-![](.png)
+![](sc5.png)
 <br>
 
 
